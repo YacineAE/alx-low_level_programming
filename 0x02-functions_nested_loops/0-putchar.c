@@ -1,20 +1,18 @@
-#include <stdio.h>
-
+#include "main.h"
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success)
  */
 
-char c[9] = "/_putchar";
-int i;
-
-int main(void)
+int _putchar(char ch)
 {
-	for (i = 1; i <= 8; i++)
+	char ch[] = "/_putchar";
+
+	for (i = 0; ch[i] != '\0'; i++)
 	{
-		putchar(c[i]);
+		_putchar(c[i]);
 	}
-	putchar('\n');
+	_putchar('\n');
 	return 0;
 }
