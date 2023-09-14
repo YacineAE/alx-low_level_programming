@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * void jack_bauer - every minute of the day of Jack Bauer
+ * jack_bauer - every minute of the day of Jack Bauer
  *
  */
 void jack_bauer(void)
