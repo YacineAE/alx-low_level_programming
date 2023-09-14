@@ -1,16 +1,17 @@
 #include "main.h"
 /**
  * _abs - absolute value
- *
+ * @n: the int to check
  * Return: Always 0.
  */
 int _abs(int n)
 {
-	int n;
-	int absValue;
-
-	absValue = abs(n);
-
-	_putchar(absValue);
-	return (0);
+	if (n >= 0)
+	{
+		return(n);
+	}
+	else
+	{
+		return (-n);
+	}
 }
