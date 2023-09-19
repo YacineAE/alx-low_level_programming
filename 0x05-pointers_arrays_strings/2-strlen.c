@@ -3,11 +3,18 @@
 #include <string.h>
 /**
  * _strlen - return the length of a string
- * @s: string
+ * @s: pointer to the string
+ * Return: the length of a string
  */
 int _strlen(char *s)
 {
-	strlen(s);
+	int len = 0;
 
-	return (strlen(s));
+	while (*s != '\0')
+	{
+		len++;
+		s++;
+	}
+
+	return (len);
 }
