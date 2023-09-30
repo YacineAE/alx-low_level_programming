@@ -19,7 +19,7 @@ int is_prime_number(int n)
  * @i: iterator
  *
  * Return: 1 if the input integer is a prime number, otherwise return 0
- */ 
+ */
 int is_prime(int n, int i)
 {
 	if (i == 1)
